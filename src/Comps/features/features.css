@@ -1,0 +1,9 @@
+.feature-card {
+    background-color: red;
+}
+
+.features {
+    /* background-color: rgb(18, 18, 95); */
+    display: flex;
+    color: green;
+}

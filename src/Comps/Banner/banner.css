@@ -1,0 +1,56 @@
+/* .row {
+    background-color: red;
+    height: 27rem;
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+}
+*/
+
+.height {
+    height: 10px;
+}
+
+.row .title {
+    font-weight: 900;
+    /* background-color: aqua; */
+    width: 14rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.banner {
+    margin-top: 0;
+    padding: 260px 0 100px 0;
+    /* background-image: url('./Assets/banking/00Digitalfinance/bg.png'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner {
+    color: rgb(148, 148, 148);
+}
+
+.banner h1,
+.hm {
+    font-size: 65px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin-bottom: 20px;
+    display: block;
+    color: white;
+}
+
+.banner p {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5rem;
+    width: 96%;
+}
+
+.txt-rotate>.wrap {
+    border-right: 0.008em solid grey;
+}

@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* background: linear-gradient(#4f1f97, darkblue); */
+}
+
+.card .card-title {
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+}
+
+.section h1 {
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    color: rgb(255, 255, 255);
+}
+
+.cardg {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    position: relative;
+    /* align-items: center; */
+    /* height: 30rem; */
+}
+
+#two .card {
+    color: black;
+}
+
+.card {
+    /* background-color: rgb(5, 110, 196); */
+    margin-bottom: 2rem;
+    margin-top: 10rem;
+    height: 17rem;
+    border-bottom-left-radius: 1px;
+    border-bottom-right-radius: 1px;
+}
+
+.BorderExample {
+    display: flex;
+}
+
+body {
+    /* background-color: red; */
+}
+
+.hey a {
+    display: flex;
+    justify-content: space-between;
+    color: darkblue;
+}
+
+.card.ll {
+    margin-top: 12rem;
+    width: 10rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
+    /* background-color: aqua; */
+}
+
+.card-group .card {
+    /* color: rgb(255, 0, 0); */
+    align-items: center;
+    display: grid;
+    justify-content: space-between;
+}
+
+.flex .relative {
+    color: red;
+}

@@ -1,0 +1,24 @@
+            /* .Toggle {
+                position: relative;
+                .progress {
+                    position: sticky;
+                    top: 0;
+                    left: 0;
+                    padding-top: 50px;
+                    text-align: center;
+                    color: rgb(0, 0, 0);
+                    font-size: 36px;
+                    .progressbar {
+                        background: #ffffff;
+                        height: 10px;
+                    }
+                }
+            } */
+            
+            .navv {
+                position: fixed;
+                top: 0;
+                padding: 20px;
+                /* z-index: 1; */
+                /* width: 100%; */
+            }

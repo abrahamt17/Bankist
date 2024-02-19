@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+nav.navbar {
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+    transition: 0.3 ease-in-out;
+    color: white;
+}
+
+body {
+    background-position: top center;
+    background-size: cover;
+    background-color: rgb(2, 26, 27);
+    /* background-image: url('./Assets/banking/00Digitalfinance/bg.png'); */
+    /* background-color: #212324; */
+    background-size: cover;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+    line-height: normal;
+}
+
+nav.navbar {
+    /* background-color: rgb(68, 64, 64); */
+    position: relative;
+}
+
+.me-auto {
+    /* margin-left: 15rem; */
+    /* margin: auto;
+    display: flex;
+    justify-content: space-between;
+    left: 0rem;
+    width: 29rem; */
+}
+
+nav.navbar.sticky {
+    padding: 0px 0;
+    background: linear-gradient(#340b69, #030c2c) no-repeat;
+}
+
+
+/* nav.navbar a.navbar-brand {
+    width: 9%;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+} */
+
+nav.navbar .navbar-nav {
+    /* margin-left: 50rem; */
+    /* display: flex;
+                    justify-self: center;
+                    align-self: center;
+                    position: relative; */
+}
+
+
+/*  */
+
+nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
+.nav.navbar .navbar-nav a.nav-link.navbar-link.active {
+    opacity: 1;
+}
+
+span.navbar-text {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-text {
+    margin-left: 10rem;
+}
+
+.navbar-text button {
+    padding: 15px 20px;
+    font-weight: 700;
+    background: linear-gradient(90deg, #09e3f3, #591da9) no-repeat;
+    transition: 0.3s ease-in-out;
+    border: none;
+}
+
+.Features {
+    background-color: red;
+}
+
+.navbar-text button:hover {
+    background: linear-gradient(90deg, #591da9, #09e3f3) no-repeat;
+}
+
+.me-auto {
+    background-color: rgb(77, 71, 71);
+    color: white;
+}
+
+.me-auto .nav-link {
+    /* background-color: aqua; */
+    color: white;
+}
+
+.blue_gradient {
+    background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+    filter: blur(123px);
+}
+
+.pink_gradient {
+    background: linear-gradient(90deg, #f4c4f3 0%, #fc64fa 100%);
+    filter: blur(900px);
+}
+
+.white_gradient {
+    background-color: rgba(255, 255, 255, 0.6);
+    filter: blur(750px);
+}
+
+.dimblue {
+    color: rgba(11, 235, 194, 0.1);
+}

@@ -11,16 +11,8 @@ This repository contains a sample banking website built using React.js and style
 - [Tailwind CSS](https://tailwindcss.com/): A utility-first CSS framework for styling.
 - Firebase-Authentication 
 
-# Project Title
-Brief description of the project.
 
-## Features
-- Feature  1
-- Feature  2
 
-## Built With
-- [React.js](https://reactjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
 
 ## Getting Started
 1. Clone the repository: `git clone https://github.com/yourusername/your-project.git`
